@@ -1,8 +1,16 @@
-import { Box } from '@mui/material';
+import { Box, Stack, Divider } from '@mui/material';
 
 function MuiLayout() {
   return (
     <>
+      {/* Stack component */}
+      <Stack spacing={4} direction='row' sx={{ border: '1px solid' }} divider={<Divider orientation='vertical' flexItem/>}>
+        <Stack spacing={2}>Hello</Stack>
+        <Stack spacing={2}>Hello</Stack>
+        <Stack spacing={2}>Hello</Stack>
+      </Stack>
+
+
       {/* Box component */}
       <Box>
         <Box marginTop='25px'>Code Evolution</Box>

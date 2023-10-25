@@ -1,4 +1,4 @@
-import { Box, Stack, Divider, Grid } from '@mui/material';
+import { Box, Stack, Divider, Grid, Paper } from '@mui/material';
 
 function MuiLayout() {
   return (
@@ -67,7 +67,7 @@ function MuiLayout() {
       </Grid>
 
       {/* Assign auto width */}
-      <Grid container marginTop='25px'>
+      <Grid container marginTop='25px' marginBottom='25px'>
         <Grid item xs>
           <Box bgcolor='primary.light' p={2}>Item 1</Box>
         </Grid>
@@ -81,6 +81,24 @@ function MuiLayout() {
           <Box bgcolor='primary.light' p={2}>Item 4</Box>
         </Grid>
       </Grid>
+
+      {/* Paper component */}
+      <Paper>
+        <Grid container>
+          <Grid item sm={6}>
+            <Box bgcolor='primary' p={2}>Card 1</Box>
+          </Grid>
+          <Grid item sm={6}>
+            <Box bgcolor='primary' p={2}>Card 1</Box>
+          </Grid>
+          <Grid item sm={6}>
+            <Box bgcolor='primary' p={2}>Card 1</Box>
+          </Grid>
+          <Grid item sm={6}>
+            <Box bgcolor='primary' p={2}>Card 1</Box>
+          </Grid>
+        </Grid>
+      </Paper>
     </>
   )
 }

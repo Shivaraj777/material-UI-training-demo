@@ -1,4 +1,4 @@
-import { Box, Stack, Divider } from '@mui/material';
+import { Box, Stack, Divider, Grid } from '@mui/material';
 
 function MuiLayout() {
   return (
@@ -33,6 +33,54 @@ function MuiLayout() {
           Code Evolution
         </Box>
       </Box>
+
+      {/* Grid component */}
+      <Grid container marginTop='25px' spacing={2}>
+        <Grid item>
+          <Box bgcolor='primary.light' p={2}>Item 1</Box>
+        </Grid>
+        <Grid item>
+          <Box bgcolor='primary.light' p={2}>Item 2</Box>
+        </Grid>
+        <Grid item>
+          <Box bgcolor='primary.light' p={2}>Item 3</Box>
+        </Grid>
+        <Grid item>
+          <Box bgcolor='primary.light' p={2}>Item 4</Box>
+        </Grid>
+      </Grid>
+
+      {/* Assign width of 6 colums to grid items */}
+      <Grid container marginTop='25px' rowSpacing={2} columnSpacing={3}>
+        <Grid item xs={6} sm={4}>
+          <Box bgcolor='primary.light' p={2}>Item 1</Box>
+        </Grid>
+        <Grid item xs={6} sm={4}>
+          <Box bgcolor='primary.light' p={2}>Item 2</Box>
+        </Grid>
+        <Grid item xs={6} sm={4}>
+          <Box bgcolor='primary.light' p={2}>Item 3</Box>
+        </Grid>
+        <Grid item xs={6} sm={4}>
+          <Box bgcolor='primary.light' p={2}>Item 4</Box>
+        </Grid>
+      </Grid>
+
+      {/* Assign auto width */}
+      <Grid container marginTop='25px'>
+        <Grid item xs>
+          <Box bgcolor='primary.light' p={2}>Item 1</Box>
+        </Grid>
+        <Grid item xs='auto'>
+          <Box bgcolor='primary.light' p={2}>Item 2</Box>
+        </Grid>
+        <Grid item xs>
+          <Box bgcolor='primary.light' p={2}>Item 3</Box>
+        </Grid>
+        <Grid item xs>
+          <Box bgcolor='primary.light' p={2}>Item 4</Box>
+        </Grid>
+      </Grid>
     </>
   )
 }

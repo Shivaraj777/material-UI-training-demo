@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import MuiAccordion from './components/MuiAccordion';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -10,7 +11,7 @@ import './App.css';
 // import MuiRatings from './MuiRatings';
 // import MuiAutoComplete from './components/MuiAutoComplete';
 // import MuiLayout from './components/MuiLayout';
-import MuiCard from './components/MuiCard';
+// import MuiCard from './components/MuiCard';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <MuiRatings /> */}
       {/* <MuiAutoComplete /> */}
       {/* <MuiLayout /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordion />
     </div>
   );
 }

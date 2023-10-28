@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 // import MuiAccordion from './components/MuiAccordion';
-import MuiImageList from './components/MuiImageList';
+// import MuiImageList from './components/MuiImageList';
+import MuiNavbar from './components/MuiNavbar';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -29,7 +30,8 @@ function App() {
       {/* <MuiLayout /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiNavbar />
     </div>
   );
 }

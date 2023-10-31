@@ -5,7 +5,8 @@ import './App.css';
 import MuiNavbar from './components/MuiNavbar';
 // import MuiLink from './components/MuiLink';
 // import MuiBreadcrumbs from './components/MuiBreadcrumbs';
-import MuiDrawer from './components/MuiDrawer';
+// import MuiDrawer from './components/MuiDrawer';
+import MuiSpeedDial from './components/MuiSpeedDial';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -37,7 +38,8 @@ function App() {
       {/* <MuiImageList /> */}
       {/* <MuiLink /> */}
       {/* <MuiBreadcrumbs /> */}
-      <MuiDrawer />
+      {/* <MuiDrawer /> */}
+      <MuiSpeedDial />
     </div>
   );
 }

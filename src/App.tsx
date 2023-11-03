@@ -8,7 +8,8 @@ import MuiNavbar from './components/MuiNavbar';
 // import MuiDrawer from './components/MuiDrawer';
 // import MuiSpeedDial from './components/MuiSpeedDial';
 import MuiBottomNavigation from './components/MuiBottomNavigation';
-import MuiAvatar from './components/MuiAvatar';
+// import MuiAvatar from './components/MuiAvatar';
+import MuiBadge from './components/MuiBadge';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -42,7 +43,8 @@ function App() {
       {/* <MuiBreadcrumbs /> */}
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
-      <MuiAvatar />
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
       <MuiBottomNavigation />
     </div>
   );

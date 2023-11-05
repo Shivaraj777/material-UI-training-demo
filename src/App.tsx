@@ -14,7 +14,8 @@ import MuiNavbar from './components/MuiNavbar';
 // import MuiChip from './components/MuiChip';
 // import MuiToolTip from './components/MuiToolTip';
 // import MuiTable from './components/MuiTable';
-import MuiAlert from './components/MuiAlert';
+// import MuiAlert from './components/MuiAlert';
+import MuiSnackbar from './components/MuiSnackbar';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -54,7 +55,8 @@ function App() {
       {/* <MuiChip /> */}
       {/* <MuiToolTip /> */}
       {/* <MuiTable /> */}
-      <MuiAlert />
+      {/* <MuiAlert /> */}
+      <MuiSnackbar />
       {/* <MuiBottomNavigation /> */}
     </div>
   );

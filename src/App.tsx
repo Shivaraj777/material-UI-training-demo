@@ -7,13 +7,14 @@ import MuiNavbar from './components/MuiNavbar';
 // import MuiBreadcrumbs from './components/MuiBreadcrumbs';
 // import MuiDrawer from './components/MuiDrawer';
 // import MuiSpeedDial from './components/MuiSpeedDial';
-import MuiBottomNavigation from './components/MuiBottomNavigation';
+// import MuiBottomNavigation from './components/MuiBottomNavigation';
 // import MuiAvatar from './components/MuiAvatar';
 // import MuiBadge from './components/MuiBadge';
 // import MuiList from './components/MuiList';
 // import MuiChip from './components/MuiChip';
 // import MuiToolTip from './components/MuiToolTip';
-import MuiTable from './components/MuiTable';
+// import MuiTable from './components/MuiTable';
+import MuiAlert from './components/MuiAlert';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -52,8 +53,9 @@ function App() {
       {/* <MuiList /> */}
       {/* <MuiChip /> */}
       {/* <MuiToolTip /> */}
-      <MuiTable />
-      <MuiBottomNavigation />
+      {/* <MuiTable /> */}
+      <MuiAlert />
+      {/* <MuiBottomNavigation /> */}
     </div>
   );
 }

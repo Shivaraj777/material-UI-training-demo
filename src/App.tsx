@@ -1,5 +1,6 @@
-import React from 'react';
 import './App.css';
+import { LocalizationProvider } from '@mui/x-date-pickers';
+import { AdapterDateFns }  from '@mui/x-date-pickers/AdapterDateFns';
 // import MuiAccordion from './components/MuiAccordion';
 // import MuiImageList from './components/MuiImageList';
 import MuiNavbar from './components/MuiNavbar';
@@ -19,7 +20,8 @@ import MuiNavbar from './components/MuiNavbar';
 // import MuiDialog from './components/MuiDialog';
 // import MuiProgress from './components/MuiProgress';
 // import MuiSkeleton from './components/MuiSkeleton';
-import MuiLoadingButton from './components/MuiLoadingButton';
+// import MuiLoadingButton from './components/MuiLoadingButton';
+import MuiPicker from './components/MuiPicker';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -34,39 +36,42 @@ import MuiLoadingButton from './components/MuiLoadingButton';
 
 function App() {
   return (
-    <div className="App">
-      <MuiNavbar />
-      {/* <MuiTypography /> */}
-      {/* <MuiButton /> */}
-      {/* <MuiTextfield /> */}
-      {/* <MuiSelect /> */}
-      {/* <MuiRadioButton /> */}
-      {/* <MuiCheckbox /> */}
-      {/* <MuiSwitch /> */}
-      {/* <MuiRatings /> */}
-      {/* <MuiAutoComplete /> */}
-      {/* <MuiLayout /> */}
-      {/* <MuiCard /> */}
-      {/* <MuiAccordion /> */}
-      {/* <MuiImageList /> */}
-      {/* <MuiLink /> */}
-      {/* <MuiBreadcrumbs /> */}
-      {/* <MuiDrawer /> */}
-      {/* <MuiSpeedDial /> */}
-      {/* <MuiAvatar /> */}
-      {/* <MuiBadge /> */}
-      {/* <MuiList /> */}
-      {/* <MuiChip /> */}
-      {/* <MuiToolTip /> */}
-      {/* <MuiTable /> */}
-      {/* <MuiAlert /> */}
-      {/* <MuiSnackbar /> */}
-      {/* <MuiDialog /> */}
-      {/* <MuiProgress /> */}
-      {/* <MuiSkeleton /> */}
-      <MuiLoadingButton />
-      {/* <MuiBottomNavigation /> */}
-    </div>
+    <LocalizationProvider dateAdapter={AdapterDateFns} >
+      <div className="App">
+        <MuiNavbar />
+        {/* <MuiTypography /> */}
+        {/* <MuiButton /> */}
+        {/* <MuiTextfield /> */}
+        {/* <MuiSelect /> */}
+        {/* <MuiRadioButton /> */}
+        {/* <MuiCheckbox /> */}
+        {/* <MuiSwitch /> */}
+        {/* <MuiRatings /> */}
+        {/* <MuiAutoComplete /> */}
+        {/* <MuiLayout /> */}
+        {/* <MuiCard /> */}
+        {/* <MuiAccordion /> */}
+        {/* <MuiImageList /> */}
+        {/* <MuiLink /> */}
+        {/* <MuiBreadcrumbs /> */}
+        {/* <MuiDrawer /> */}
+        {/* <MuiSpeedDial /> */}
+        {/* <MuiAvatar /> */}
+        {/* <MuiBadge /> */}
+        {/* <MuiList /> */}
+        {/* <MuiChip /> */}
+        {/* <MuiToolTip /> */}
+        {/* <MuiTable /> */}
+        {/* <MuiAlert /> */}
+        {/* <MuiSnackbar /> */}
+        {/* <MuiDialog /> */}
+        {/* <MuiProgress /> */}
+        {/* <MuiSkeleton /> */}
+        {/* <MuiLoadingButton /> */}
+        <MuiPicker />
+        {/* <MuiBottomNavigation /> */}
+      </div>
+    </LocalizationProvider>
   );
 }
 

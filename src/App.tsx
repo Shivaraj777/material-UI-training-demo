@@ -23,7 +23,8 @@ import MuiNavbar from './components/MuiNavbar';
 // import MuiLoadingButton from './components/MuiLoadingButton';
 // import MuiPicker from './components/MuiPicker';
 // import MuiTab from './components/MuiTab';
-import MuiTimeline from './components/MuiTimeline';
+// import MuiTimeline from './components/MuiTimeline';
+import MuiMasonry from './components/MuiMasonry';
 // import MuiTypography from './components/MuiTypography';
 // import MuiButton from './components/MuiButton';
 // import MuiTextfield from './components/MuiTextfield';
@@ -72,7 +73,8 @@ function App() {
         {/* <MuiLoadingButton /> */}
         {/* <MuiPicker /> */}
         {/* <MuiTab /> */}
-        <MuiTimeline />
+        {/* <MuiTimeline /> */}
+        <MuiMasonry />
         {/* <MuiBottomNavigation /> */}
       </div>
     </LocalizationProvider>
